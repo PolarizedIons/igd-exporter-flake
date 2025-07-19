@@ -5,10 +5,10 @@ let
   versionNumber = "0.0.0";
   version = "${versionNumber}-${builtins.substring 0 7 srcRev}";
 
-  srcOwner = "yrro";
+  srcOwner = "fatpat";
   srcRepo = "igd-exporter";
-  srcRev = "c49a8ade4d60ad9f242e5d314c3f55294eccea14";
-  srcHash = "sha256-8/un/QSZQZCwbmZ31hb0oBdg40Y/Faq0OUZEgVAuRl0=";
+  srcRev = "68fbb6a2e89a0f86c5dea444d8fadb708c3e054d";
+  srcHash = "sha256-5UX+a+DnSyL6wYCU4hbSbh6PD+dk81E2CpwotFttedE=";
 
   python = python312;
   buildPython = python.pkgs.buildPythonApplication;
